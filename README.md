@@ -10,7 +10,7 @@
 ## 🎬 프로젝트 데모 영상
 
 > 👉 아래 버튼을 클릭하면 **데모 영상을 다운로드**할 수 있습니다.  
-> (⚠️ GitHub에서는 동영상 미리보기가 지원되지 않으므로, 반드시 다운로드 후 확인하세요!)
+
 
 <p align="center">
   <a href="https://github.com/woodoyeon/social-feed-frontend/raw/main/demo/social-feed-demo.mp4" download>
@@ -19,6 +19,11 @@
 </p>
 
 ---
+
+# 예시: 10초 구간을 gif로 변환 (5~15초)
+ffmpeg -ss 5 -t 10 -i demo/social-feed-demo.mp4 -vf "scale=800:-1:flags=lanczos,fps=15" demo/preview.gif
+
+
 ---
 
 # Social Feed — Plus
