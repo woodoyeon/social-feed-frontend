@@ -1,16 +1,15 @@
 <p align="center">
+  <img src="https://img.shields.io/badge/🚀-Social_Feed_Plus-blue?style=for-the-badge&logo=next.js&logoColor=white" alt="Social Feed Plus" />
+  <img src="https://img.shields.io/badge/Frontend-Next.js_15-black?style=for-the-badge&logo=vercel&logoColor=white" alt="Next.js 15" />
+  <img src="https://img.shields.io/badge/Styling-TailwindCSS-38b2ac?style=for-the-badge&logo=tailwind-css&logoColor=white" alt="Tailwind CSS" />
+  <img src="https://img.shields.io/badge/Test-Storybook_+_Jest-FF4785?style=for-the-badge&logo=storybook&logoColor=white" alt="Storybook & Jest" />
+  <br/><br/>
   <a href="https://github.com/woodoyeon/social-feed-frontend/raw/main/demo/social-feed-demo.mp4" download>
-    <img src="https://img.shields.io/badge/Download-Demo_Video-2ea44f?style=for-the-badge&logo=github" alt="Download Demo Video" />
+    <img src="https://img.shields.io/badge/🎬 Download-Demo_Video-2ea44f?style=for-the-badge&logo=github&logoColor=white" alt="Download Demo Video"/>
   </a>
-  <br />
- 
 </p>
 
 ---
-
-🎬 [데모 영상 다운로드](https://github.com/woodoyeon/social-feed-frontend/raw/main/demo/social-feed-demo.mp4)
-
-
 ---
 
 # Social Feed — Plus
