@@ -19,11 +19,6 @@
 </p>
 
 ---
-
-# 예시: 10초 구간을 gif로 변환 (5~15초)
-ffmpeg -ss 5 -t 10 -i demo/social-feed-demo.mp4 -vf "scale=800:-1:flags=lanczos,fps=15" demo/preview.gif
-
-
 ---
 
 # Social Feed — Plus
