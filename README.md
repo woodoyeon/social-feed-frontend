@@ -1,9 +1,6 @@
-좋습니다 🙌 도연님, 요청 반영해서 **최종 README.md** 버전을 정리했습니다.
-👉 그대로 복붙해서 깃허브 Public Repo에 넣으시면 됩니다.
 
----
 
-````markdown
+
 # Social Feed — Plus
 
 Next.js 15 기반으로 구현한 **소셜 피드 클론 프로젝트**입니다.  
