@@ -3,9 +3,18 @@
   <img src="https://img.shields.io/badge/Frontend-Next.js_15-black?style=for-the-badge&logo=vercel&logoColor=white" alt="Next.js 15" />
   <img src="https://img.shields.io/badge/Styling-TailwindCSS-38b2ac?style=for-the-badge&logo=tailwind-css&logoColor=white" alt="Tailwind CSS" />
   <img src="https://img.shields.io/badge/Test-Storybook_+_Jest-FF4785?style=for-the-badge&logo=storybook&logoColor=white" alt="Storybook & Jest" />
-  <br/><br/>
+</p>
+
+---
+
+## 🎬 프로젝트 데모 영상
+
+> 👉 아래 버튼을 클릭하면 **데모 영상을 다운로드**할 수 있습니다.  
+> (⚠️ GitHub에서는 동영상 미리보기가 지원되지 않으므로, 반드시 다운로드 후 확인하세요!)
+
+<p align="center">
   <a href="https://github.com/woodoyeon/social-feed-frontend/raw/main/demo/social-feed-demo.mp4" download>
-    <img src="https://img.shields.io/badge/🎬 Download-Demo_Video-2ea44f?style=for-the-badge&logo=github&logoColor=white" alt="Download Demo Video"/>
+    <img src="https://img.shields.io/badge/🎥 Download-Demo_Video-2ea44f?style=for-the-badge&logo=github&logoColor=white" alt="Download Demo Video"/>
   </a>
 </p>
 
