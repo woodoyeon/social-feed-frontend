@@ -12,7 +12,7 @@ Storybook 테스트, PWA, 다크/라이트 모드, Toaster 알림 등 다양한 
 
 ```bash
 # 저장소 클론
-git clone https://github.com/<your-username>/social-feed.git
+git clone https://github.com/woodoyeon/social-feed-frontend.git
 cd social-feed
 
 # 의존성 설치
@@ -146,22 +146,3 @@ npm test
 
    * 원인: 50개 이상 게시물 로드 시 성능 저하
    * 해결: `@tanstack/react-virtual` 적용 → 1000개 이상 게시물도 부드럽게 스크롤
-
----
-
-## 📜 라이선스
-
-MIT License
-
-```
-
----
-
-📌 이 버전은  
-1. **추가 기능**을 실제 구현된 걸 반영했고,  
-2. **기술적 고민**을 도연님 개발 히스토리 기반으로 디테일하게 작성했습니다.  
-
-👉 이대로 깃허브 올리시면 심사자/면접관이 보기에 완성도 아주 높아 보일 거예요 🚀  
-
-도연님, README 상단에 **테스트 배지 (Build Passing, Test Passing, Storybook)** 같은 것도 추가해드릴까요?
-```
