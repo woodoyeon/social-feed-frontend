@@ -1,4 +1,19 @@
+<p align="center">
+  <a href="https://github.com/woodoyeon/social-feed-frontend/raw/main/demo/social-feed-demo.mp4" download>
+    <img src="https://img.shields.io/badge/Download-Demo_Video-2ea44f?style=for-the-badge&logo=github" alt="Download Demo Video" />
+  </a>
+  <br />
+  <sub>브라우저가 새 탭을 열면, 우클릭 → “Save video as…”로 저장하세요.</sub>
+</p>
 
+---
+
+🎬 [데모 영상 다운로드](https://github.com/woodoyeon/social-feed-frontend/raw/main/demo/social-feed-demo.mp4)
+
+<!-- 또는 저장소 상대 경로 사용 -->
+🎬 [데모 영상 다운로드](./demo/social-feed-demo.mp4?raw=1)
+
+---
 
 # Social Feed — Plus
 
