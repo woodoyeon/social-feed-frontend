@@ -1,0 +1,876 @@
+[
+  {
+    "id": 1,
+    "author": {
+      "name": "김개발",
+      "username": "kimdev",
+      "profileImage": "https://picsum.photos/40/40?random=1",
+      "verified": false
+    },
+    "content": "오늘 React 18의 새로운 기능들을 공부했습니다! Concurrent Features가 정말 흥미롭네요 🚀 #React #개발자",
+    "images": [
+      "https://picsum.photos/500/300?random=1"
+    ],
+    "createdAt": "2024-01-15T09:30:00Z",
+    "likes": 3,
+    "retweets": 2,
+    "comments": 1,
+    "isLiked": false,
+    "isRetweeted": false
+  },
+  {
+    "id": 2,
+    "author": {
+      "name": "이디자인",
+      "username": "leedesign",
+      "profileImage": "https://picsum.photos/40/40?random=2",
+      "verified": false
+    },
+    "content": "새로운 디자인 시스템을 만들고 있어요. 일관성 있는 컴포넌트 라이브러리의 중요성을 다시 한번 느낍니다 ✨",
+    "images": [],
+    "createdAt": "2024-01-15T08:30:00Z",
+    "likes": 6,
+    "retweets": 4,
+    "comments": 2,
+    "isLiked": false,
+    "isRetweeted": false
+  },
+  {
+    "id": 3,
+    "author": {
+      "name": "박프론트",
+      "username": "parkfrontend",
+      "profileImage": "https://picsum.photos/40/40?random=3",
+      "verified": false
+    },
+    "content": "Next.js App Router 공부 중입니다. 서버 컴포넌트 개념이 진짜 강력하네요 💡 #Nextjs",
+    "images": [
+      "https://picsum.photos/500/300?random=3"
+    ],
+    "createdAt": "2024-01-15T07:30:00Z",
+    "likes": 9,
+    "retweets": 6,
+    "comments": 3,
+    "isLiked": false,
+    "isRetweeted": false
+  },
+  {
+    "id": 4,
+    "author": {
+      "name": "최백엔드",
+      "username": "choiback",
+      "profileImage": "https://picsum.photos/40/40?random=4",
+      "verified": false
+    },
+    "content": "Spring Boot + JPA로 API를 설계했는데, 프론트와 맞물리는 부분이 꽤 재밌네요 😎",
+    "images": [],
+    "createdAt": "2024-01-15T06:30:00Z",
+    "likes": 12,
+    "retweets": 8,
+    "comments": 4,
+    "isLiked": false,
+    "isRetweeted": false
+  },
+  {
+    "id": 5,
+    "author": {
+      "name": "User5",
+      "username": "user5",
+      "profileImage": "https://picsum.photos/40/40?random=5",
+      "verified": false
+    },
+    "content": "샘플 포스트 #5 — 트위터/X 스타일 게시물입니다 🚀 #dev5",
+    "images": [
+      "https://picsum.photos/500/300?random=5"
+    ],
+    "createdAt": "2024-01-15T05:30:00Z",
+    "likes": 15,
+    "retweets": 10,
+    "comments": 5,
+    "isLiked": false,
+    "isRetweeted": false
+  },
+  {
+    "id": 6,
+    "author": {
+      "name": "User6",
+      "username": "user6",
+      "profileImage": "https://picsum.photos/40/40?random=6",
+      "verified": false
+    },
+    "content": "샘플 포스트 #6 — 트위터/X 스타일 게시물입니다 🚀 #dev6",
+    "images": [],
+    "createdAt": "2024-01-15T04:30:00Z",
+    "likes": 18,
+    "retweets": 12,
+    "comments": 6,
+    "isLiked": false,
+    "isRetweeted": false
+  },
+  {
+    "id": 7,
+    "author": {
+      "name": "User7",
+      "username": "user7",
+      "profileImage": "https://picsum.photos/40/40?random=7",
+      "verified": true
+    },
+    "content": "샘플 포스트 #7 — 트위터/X 스타일 게시물입니다 🚀 #dev7",
+    "images": [],
+    "createdAt": "2024-01-15T03:30:00Z",
+    "likes": 21,
+    "retweets": 14,
+    "comments": 7,
+    "isLiked": false,
+    "isRetweeted": false
+  },
+  {
+    "id": 8,
+    "author": {
+      "name": "User8",
+      "username": "user8",
+      "profileImage": "https://picsum.photos/40/40?random=8",
+      "verified": false
+    },
+    "content": "샘플 포스트 #8 — 트위터/X 스타일 게시물입니다 🚀 #dev8",
+    "images": [],
+    "createdAt": "2024-01-15T02:30:00Z",
+    "likes": 24,
+    "retweets": 16,
+    "comments": 8,
+    "isLiked": false,
+    "isRetweeted": false
+  },
+  {
+    "id": 9,
+    "author": {
+      "name": "User9",
+      "username": "user9",
+      "profileImage": "https://picsum.photos/40/40?random=9",
+      "verified": false
+    },
+    "content": "샘플 포스트 #9 — 트위터/X 스타일 게시물입니다 🚀 #dev9",
+    "images": [],
+    "createdAt": "2024-01-15T01:30:00Z",
+    "likes": 27,
+    "retweets": 18,
+    "comments": 9,
+    "isLiked": false,
+    "isRetweeted": false
+  },
+  {
+    "id": 10,
+    "author": {
+      "name": "User10",
+      "username": "user10",
+      "profileImage": "https://picsum.photos/40/40?random=10",
+      "verified": false
+    },
+    "content": "샘플 포스트 #10 — 트위터/X 스타일 게시물입니다 🚀 #dev10",
+    "images": [
+      "https://picsum.photos/500/300?random=10"
+    ],
+    "createdAt": "2024-01-15T00:30:00Z",
+    "likes": 30,
+    "retweets": 0,
+    "comments": 0,
+    "isLiked": false,
+    "isRetweeted": false
+  },
+  {
+    "id": 11,
+    "author": {
+      "name": "User11",
+      "username": "user11",
+      "profileImage": "https://picsum.photos/40/40?random=11",
+      "verified": false
+    },
+    "content": "샘플 포스트 #11 — 트위터/X 스타일 게시물입니다 🚀 #dev11",
+    "images": [],
+    "createdAt": "2024-01-14T23:30:00Z",
+    "likes": 33,
+    "retweets": 2,
+    "comments": 1,
+    "isLiked": false,
+    "isRetweeted": false
+  },
+  {
+    "id": 12,
+    "author": {
+      "name": "User12",
+      "username": "user12",
+      "profileImage": "https://picsum.photos/40/40?random=12",
+      "verified": false
+    },
+    "content": "샘플 포스트 #12 — 트위터/X 스타일 게시물입니다 🚀 #dev12",
+    "images": [],
+    "createdAt": "2024-01-14T22:30:00Z",
+    "likes": 36,
+    "retweets": 4,
+    "comments": 2,
+    "isLiked": false,
+    "isRetweeted": false
+  },
+  {
+    "id": 13,
+    "author": {
+      "name": "User13",
+      "username": "user13",
+      "profileImage": "https://picsum.photos/40/40?random=13",
+      "verified": false
+    },
+    "content": "샘플 포스트 #13 — 트위터/X 스타일 게시물입니다 🚀 #dev13",
+    "images": [],
+    "createdAt": "2024-01-14T21:30:00Z",
+    "likes": 39,
+    "retweets": 6,
+    "comments": 3,
+    "isLiked": false,
+    "isRetweeted": false
+  },
+  {
+    "id": 14,
+    "author": {
+      "name": "User14",
+      "username": "user14",
+      "profileImage": "https://picsum.photos/40/40?random=14",
+      "verified": true
+    },
+    "content": "샘플 포스트 #14 — 트위터/X 스타일 게시물입니다 🚀 #dev14",
+    "images": [],
+    "createdAt": "2024-01-14T20:30:00Z",
+    "likes": 42,
+    "retweets": 8,
+    "comments": 4,
+    "isLiked": false,
+    "isRetweeted": false
+  },
+  {
+    "id": 15,
+    "author": {
+      "name": "User15",
+      "username": "user15",
+      "profileImage": "https://picsum.photos/40/40?random=15",
+      "verified": false
+    },
+    "content": "샘플 포스트 #15 — 트위터/X 스타일 게시물입니다 🚀 #dev15",
+    "images": [
+      "https://picsum.photos/500/300?random=15"
+    ],
+    "createdAt": "2024-01-14T19:30:00Z",
+    "likes": 45,
+    "retweets": 10,
+    "comments": 5,
+    "isLiked": false,
+    "isRetweeted": false
+  },
+  {
+    "id": 16,
+    "author": {
+      "name": "User16",
+      "username": "user16",
+      "profileImage": "https://picsum.photos/40/40?random=16",
+      "verified": false
+    },
+    "content": "샘플 포스트 #16 — 트위터/X 스타일 게시물입니다 🚀 #dev16",
+    "images": [],
+    "createdAt": "2024-01-14T18:30:00Z",
+    "likes": 48,
+    "retweets": 12,
+    "comments": 6,
+    "isLiked": false,
+    "isRetweeted": false
+  },
+  {
+    "id": 17,
+    "author": {
+      "name": "User17",
+      "username": "user17",
+      "profileImage": "https://picsum.photos/40/40?random=17",
+      "verified": false
+    },
+    "content": "샘플 포스트 #17 — 트위터/X 스타일 게시물입니다 🚀 #dev17",
+    "images": [],
+    "createdAt": "2024-01-14T17:30:00Z",
+    "likes": 1,
+    "retweets": 14,
+    "comments": 7,
+    "isLiked": false,
+    "isRetweeted": false
+  },
+  {
+    "id": 18,
+    "author": {
+      "name": "User18",
+      "username": "user18",
+      "profileImage": "https://picsum.photos/40/40?random=18",
+      "verified": false
+    },
+    "content": "샘플 포스트 #18 — 트위터/X 스타일 게시물입니다 🚀 #dev18",
+    "images": [],
+    "createdAt": "2024-01-14T16:30:00Z",
+    "likes": 4,
+    "retweets": 16,
+    "comments": 8,
+    "isLiked": false,
+    "isRetweeted": false
+  },
+  {
+    "id": 19,
+    "author": {
+      "name": "User19",
+      "username": "user19",
+      "profileImage": "https://picsum.photos/40/40?random=19",
+      "verified": false
+    },
+    "content": "샘플 포스트 #19 — 트위터/X 스타일 게시물입니다 🚀 #dev19",
+    "images": [],
+    "createdAt": "2024-01-14T15:30:00Z",
+    "likes": 7,
+    "retweets": 18,
+    "comments": 9,
+    "isLiked": false,
+    "isRetweeted": false
+  },
+  {
+    "id": 20,
+    "author": {
+      "name": "User20",
+      "username": "user20",
+      "profileImage": "https://picsum.photos/40/40?random=20",
+      "verified": false
+    },
+    "content": "샘플 포스트 #20 — 트위터/X 스타일 게시물입니다 🚀 #dev20",
+    "images": [
+      "https://picsum.photos/500/300?random=20"
+    ],
+    "createdAt": "2024-01-14T14:30:00Z",
+    "likes": 10,
+    "retweets": 0,
+    "comments": 0,
+    "isLiked": false,
+    "isRetweeted": false
+  },
+  {
+    "id": 21,
+    "author": {
+      "name": "User21",
+      "username": "user21",
+      "profileImage": "https://picsum.photos/40/40?random=21",
+      "verified": true
+    },
+    "content": "샘플 포스트 #21 — 트위터/X 스타일 게시물입니다 🚀 #dev21",
+    "images": [],
+    "createdAt": "2024-01-14T13:30:00Z",
+    "likes": 13,
+    "retweets": 2,
+    "comments": 1,
+    "isLiked": false,
+    "isRetweeted": false
+  },
+  {
+    "id": 22,
+    "author": {
+      "name": "User22",
+      "username": "user22",
+      "profileImage": "https://picsum.photos/40/40?random=22",
+      "verified": false
+    },
+    "content": "샘플 포스트 #22 — 트위터/X 스타일 게시물입니다 🚀 #dev22",
+    "images": [],
+    "createdAt": "2024-01-14T12:30:00Z",
+    "likes": 16,
+    "retweets": 4,
+    "comments": 2,
+    "isLiked": false,
+    "isRetweeted": false
+  },
+  {
+    "id": 23,
+    "author": {
+      "name": "User23",
+      "username": "user23",
+      "profileImage": "https://picsum.photos/40/40?random=23",
+      "verified": false
+    },
+    "content": "샘플 포스트 #23 — 트위터/X 스타일 게시물입니다 🚀 #dev23",
+    "images": [],
+    "createdAt": "2024-01-14T11:30:00Z",
+    "likes": 19,
+    "retweets": 6,
+    "comments": 3,
+    "isLiked": false,
+    "isRetweeted": false
+  },
+  {
+    "id": 24,
+    "author": {
+      "name": "User24",
+      "username": "user24",
+      "profileImage": "https://picsum.photos/40/40?random=24",
+      "verified": false
+    },
+    "content": "샘플 포스트 #24 — 트위터/X 스타일 게시물입니다 🚀 #dev24",
+    "images": [],
+    "createdAt": "2024-01-14T10:30:00Z",
+    "likes": 22,
+    "retweets": 8,
+    "comments": 4,
+    "isLiked": false,
+    "isRetweeted": false
+  },
+  {
+    "id": 25,
+    "author": {
+      "name": "User25",
+      "username": "user25",
+      "profileImage": "https://picsum.photos/40/40?random=25",
+      "verified": false
+    },
+    "content": "샘플 포스트 #25 — 트위터/X 스타일 게시물입니다 🚀 #dev25",
+    "images": [
+      "https://picsum.photos/500/300?random=25"
+    ],
+    "createdAt": "2024-01-14T09:30:00Z",
+    "likes": 25,
+    "retweets": 10,
+    "comments": 5,
+    "isLiked": false,
+    "isRetweeted": false
+  },
+  {
+    "id": 26,
+    "author": {
+      "name": "User26",
+      "username": "user26",
+      "profileImage": "https://picsum.photos/40/40?random=26",
+      "verified": false
+    },
+    "content": "샘플 포스트 #26 — 트위터/X 스타일 게시물입니다 🚀 #dev26",
+    "images": [],
+    "createdAt": "2024-01-14T08:30:00Z",
+    "likes": 28,
+    "retweets": 12,
+    "comments": 6,
+    "isLiked": false,
+    "isRetweeted": false
+  },
+  {
+    "id": 27,
+    "author": {
+      "name": "User27",
+      "username": "user27",
+      "profileImage": "https://picsum.photos/40/40?random=27",
+      "verified": false
+    },
+    "content": "샘플 포스트 #27 — 트위터/X 스타일 게시물입니다 🚀 #dev27",
+    "images": [],
+    "createdAt": "2024-01-14T07:30:00Z",
+    "likes": 31,
+    "retweets": 14,
+    "comments": 7,
+    "isLiked": false,
+    "isRetweeted": false
+  },
+  {
+    "id": 28,
+    "author": {
+      "name": "User28",
+      "username": "user28",
+      "profileImage": "https://picsum.photos/40/40?random=28",
+      "verified": true
+    },
+    "content": "샘플 포스트 #28 — 트위터/X 스타일 게시물입니다 🚀 #dev28",
+    "images": [],
+    "createdAt": "2024-01-14T06:30:00Z",
+    "likes": 34,
+    "retweets": 16,
+    "comments": 8,
+    "isLiked": false,
+    "isRetweeted": false
+  },
+  {
+    "id": 29,
+    "author": {
+      "name": "User29",
+      "username": "user29",
+      "profileImage": "https://picsum.photos/40/40?random=29",
+      "verified": false
+    },
+    "content": "샘플 포스트 #29 — 트위터/X 스타일 게시물입니다 🚀 #dev29",
+    "images": [],
+    "createdAt": "2024-01-14T05:30:00Z",
+    "likes": 37,
+    "retweets": 18,
+    "comments": 9,
+    "isLiked": false,
+    "isRetweeted": false
+  },
+  {
+    "id": 30,
+    "author": {
+      "name": "User30",
+      "username": "user30",
+      "profileImage": "https://picsum.photos/40/40?random=30",
+      "verified": false
+    },
+    "content": "샘플 포스트 #30 — 트위터/X 스타일 게시물입니다 🚀 #dev30",
+    "images": [
+      "https://picsum.photos/500/300?random=30"
+    ],
+    "createdAt": "2024-01-14T04:30:00Z",
+    "likes": 40,
+    "retweets": 0,
+    "comments": 0,
+    "isLiked": false,
+    "isRetweeted": false
+  },
+  {
+    "id": 31,
+    "author": {
+      "name": "User31",
+      "username": "user31",
+      "profileImage": "https://picsum.photos/40/40?random=31",
+      "verified": false
+    },
+    "content": "샘플 포스트 #31 — 트위터/X 스타일 게시물입니다 🚀 #dev31",
+    "images": [],
+    "createdAt": "2024-01-14T03:30:00Z",
+    "likes": 43,
+    "retweets": 2,
+    "comments": 1,
+    "isLiked": false,
+    "isRetweeted": false
+  },
+  {
+    "id": 32,
+    "author": {
+      "name": "User32",
+      "username": "user32",
+      "profileImage": "https://picsum.photos/40/40?random=32",
+      "verified": false
+    },
+    "content": "샘플 포스트 #32 — 트위터/X 스타일 게시물입니다 🚀 #dev32",
+    "images": [],
+    "createdAt": "2024-01-14T02:30:00Z",
+    "likes": 46,
+    "retweets": 4,
+    "comments": 2,
+    "isLiked": false,
+    "isRetweeted": false
+  },
+  {
+    "id": 33,
+    "author": {
+      "name": "User33",
+      "username": "user33",
+      "profileImage": "https://picsum.photos/40/40?random=33",
+      "verified": false
+    },
+    "content": "샘플 포스트 #33 — 트위터/X 스타일 게시물입니다 🚀 #dev33",
+    "images": [],
+    "createdAt": "2024-01-14T01:30:00Z",
+    "likes": 49,
+    "retweets": 6,
+    "comments": 3,
+    "isLiked": false,
+    "isRetweeted": false
+  },
+  {
+    "id": 34,
+    "author": {
+      "name": "User34",
+      "username": "user34",
+      "profileImage": "https://picsum.photos/40/40?random=34",
+      "verified": false
+    },
+    "content": "샘플 포스트 #34 — 트위터/X 스타일 게시물입니다 🚀 #dev34",
+    "images": [],
+    "createdAt": "2024-01-14T00:30:00Z",
+    "likes": 2,
+    "retweets": 8,
+    "comments": 4,
+    "isLiked": false,
+    "isRetweeted": false
+  },
+  {
+    "id": 35,
+    "author": {
+      "name": "User35",
+      "username": "user35",
+      "profileImage": "https://picsum.photos/40/40?random=35",
+      "verified": true
+    },
+    "content": "샘플 포스트 #35 — 트위터/X 스타일 게시물입니다 🚀 #dev35",
+    "images": [
+      "https://picsum.photos/500/300?random=35"
+    ],
+    "createdAt": "2024-01-13T23:30:00Z",
+    "likes": 5,
+    "retweets": 10,
+    "comments": 5,
+    "isLiked": false,
+    "isRetweeted": false
+  },
+  {
+    "id": 36,
+    "author": {
+      "name": "User36",
+      "username": "user36",
+      "profileImage": "https://picsum.photos/40/40?random=36",
+      "verified": false
+    },
+    "content": "샘플 포스트 #36 — 트위터/X 스타일 게시물입니다 🚀 #dev36",
+    "images": [],
+    "createdAt": "2024-01-13T22:30:00Z",
+    "likes": 8,
+    "retweets": 12,
+    "comments": 6,
+    "isLiked": false,
+    "isRetweeted": false
+  },
+  {
+    "id": 37,
+    "author": {
+      "name": "User37",
+      "username": "user37",
+      "profileImage": "https://picsum.photos/40/40?random=37",
+      "verified": false
+    },
+    "content": "샘플 포스트 #37 — 트위터/X 스타일 게시물입니다 🚀 #dev37",
+    "images": [],
+    "createdAt": "2024-01-13T21:30:00Z",
+    "likes": 11,
+    "retweets": 14,
+    "comments": 7,
+    "isLiked": false,
+    "isRetweeted": false
+  },
+  {
+    "id": 38,
+    "author": {
+      "name": "User38",
+      "username": "user38",
+      "profileImage": "https://picsum.photos/40/40?random=38",
+      "verified": false
+    },
+    "content": "샘플 포스트 #38 — 트위터/X 스타일 게시물입니다 🚀 #dev38",
+    "images": [],
+    "createdAt": "2024-01-13T20:30:00Z",
+    "likes": 14,
+    "retweets": 16,
+    "comments": 8,
+    "isLiked": false,
+    "isRetweeted": false
+  },
+  {
+    "id": 39,
+    "author": {
+      "name": "User39",
+      "username": "user39",
+      "profileImage": "https://picsum.photos/40/40?random=39",
+      "verified": false
+    },
+    "content": "샘플 포스트 #39 — 트위터/X 스타일 게시물입니다 🚀 #dev39",
+    "images": [],
+    "createdAt": "2024-01-13T19:30:00Z",
+    "likes": 17,
+    "retweets": 18,
+    "comments": 9,
+    "isLiked": false,
+    "isRetweeted": false
+  },
+  {
+    "id": 40,
+    "author": {
+      "name": "User40",
+      "username": "user40",
+      "profileImage": "https://picsum.photos/40/40?random=40",
+      "verified": false
+    },
+    "content": "샘플 포스트 #40 — 트위터/X 스타일 게시물입니다 🚀 #dev40",
+    "images": [
+      "https://picsum.photos/500/300?random=40"
+    ],
+    "createdAt": "2024-01-13T18:30:00Z",
+    "likes": 20,
+    "retweets": 0,
+    "comments": 0,
+    "isLiked": false,
+    "isRetweeted": false
+  },
+  {
+    "id": 41,
+    "author": {
+      "name": "User41",
+      "username": "user41",
+      "profileImage": "https://picsum.photos/40/40?random=41",
+      "verified": false
+    },
+    "content": "샘플 포스트 #41 — 트위터/X 스타일 게시물입니다 🚀 #dev41",
+    "images": [],
+    "createdAt": "2024-01-13T17:30:00Z",
+    "likes": 23,
+    "retweets": 2,
+    "comments": 1,
+    "isLiked": false,
+    "isRetweeted": false
+  },
+  {
+    "id": 42,
+    "author": {
+      "name": "User42",
+      "username": "user42",
+      "profileImage": "https://picsum.photos/40/40?random=42",
+      "verified": true
+    },
+    "content": "샘플 포스트 #42 — 트위터/X 스타일 게시물입니다 🚀 #dev42",
+    "images": [],
+    "createdAt": "2024-01-13T16:30:00Z",
+    "likes": 26,
+    "retweets": 4,
+    "comments": 2,
+    "isLiked": false,
+    "isRetweeted": false
+  },
+  {
+    "id": 43,
+    "author": {
+      "name": "User43",
+      "username": "user43",
+      "profileImage": "https://picsum.photos/40/40?random=43",
+      "verified": false
+    },
+    "content": "샘플 포스트 #43 — 트위터/X 스타일 게시물입니다 🚀 #dev43",
+    "images": [],
+    "createdAt": "2024-01-13T15:30:00Z",
+    "likes": 29,
+    "retweets": 6,
+    "comments": 3,
+    "isLiked": false,
+    "isRetweeted": false
+  },
+  {
+    "id": 44,
+    "author": {
+      "name": "User44",
+      "username": "user44",
+      "profileImage": "https://picsum.photos/40/40?random=44",
+      "verified": false
+    },
+    "content": "샘플 포스트 #44 — 트위터/X 스타일 게시물입니다 🚀 #dev44",
+    "images": [],
+    "createdAt": "2024-01-13T14:30:00Z",
+    "likes": 32,
+    "retweets": 8,
+    "comments": 4,
+    "isLiked": false,
+    "isRetweeted": false
+  },
+  {
+    "id": 45,
+    "author": {
+      "name": "User45",
+      "username": "user45",
+      "profileImage": "https://picsum.photos/40/40?random=45",
+      "verified": false
+    },
+    "content": "샘플 포스트 #45 — 트위터/X 스타일 게시물입니다 🚀 #dev45",
+    "images": [
+      "https://picsum.photos/500/300?random=45"
+    ],
+    "createdAt": "2024-01-13T13:30:00Z",
+    "likes": 35,
+    "retweets": 10,
+    "comments": 5,
+    "isLiked": false,
+    "isRetweeted": false
+  },
+  {
+    "id": 46,
+    "author": {
+      "name": "User46",
+      "username": "user46",
+      "profileImage": "https://picsum.photos/40/40?random=46",
+      "verified": false
+    },
+    "content": "샘플 포스트 #46 — 트위터/X 스타일 게시물입니다 🚀 #dev46",
+    "images": [],
+    "createdAt": "2024-01-13T12:30:00Z",
+    "likes": 38,
+    "retweets": 12,
+    "comments": 6,
+    "isLiked": false,
+    "isRetweeted": false
+  },
+  {
+    "id": 47,
+    "author": {
+      "name": "User47",
+      "username": "user47",
+      "profileImage": "https://picsum.photos/40/40?random=47",
+      "verified": false
+    },
+    "content": "샘플 포스트 #47 — 트위터/X 스타일 게시물입니다 🚀 #dev47",
+    "images": [],
+    "createdAt": "2024-01-13T11:30:00Z",
+    "likes": 41,
+    "retweets": 14,
+    "comments": 7,
+    "isLiked": false,
+    "isRetweeted": false
+  },
+  {
+    "id": 48,
+    "author": {
+      "name": "User48",
+      "username": "user48",
+      "profileImage": "https://picsum.photos/40/40?random=48",
+      "verified": false
+    },
+    "content": "샘플 포스트 #48 — 트위터/X 스타일 게시물입니다 🚀 #dev48",
+    "images": [],
+    "createdAt": "2024-01-13T10:30:00Z",
+    "likes": 44,
+    "retweets": 16,
+    "comments": 8,
+    "isLiked": false,
+    "isRetweeted": false
+  },
+  {
+    "id": 49,
+    "author": {
+      "name": "User49",
+      "username": "user49",
+      "profileImage": "https://picsum.photos/40/40?random=49",
+      "verified": true
+    },
+    "content": "샘플 포스트 #49 — 트위터/X 스타일 게시물입니다 🚀 #dev49",
+    "images": [],
+    "createdAt": "2024-01-13T09:30:00Z",
+    "likes": 47,
+    "retweets": 18,
+    "comments": 9,
+    "isLiked": false,
+    "isRetweeted": false
+  },
+  {
+    "id": 50,
+    "author": {
+      "name": "User50",
+      "username": "user50",
+      "profileImage": "https://picsum.photos/40/40?random=50",
+      "verified": false
+    },
+    "content": "샘플 포스트 #50 — 트위터/X 스타일 게시물입니다 🚀 #dev50",
+    "images": [
+      "https://picsum.photos/500/300?random=50"
+    ],
+    "createdAt": "2024-01-13T08:30:00Z",
+    "likes": 0,
+    "retweets": 0,
+    "comments": 0,
+    "isLiked": false,
+    "isRetweeted": false
+  }
+]

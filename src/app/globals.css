@@ -1,26 +1,76 @@
+/* src/app/globals.css */
+/* Tailwind v4 import */
 @import "tailwindcss";
 
+/* ===== Light (기본) ===== */
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: #ffffff;  /* 페이지 전체 */
+  --surface:    #f8fafc;  /* 카드/패널 */
+  --surface-2:  #eef2f7;  /* hover/입력창 등 한 단계 위 표면 */
+  --border:     #e2e8f0;  /* 경계선 */
+  --divider:    #e5e9f2;  /* 리스트 구분선 */
+  --muted:      #64748b;  /* 보조 텍스트 */
+  --accent:     #3b82f6;  /* 링크/포커스 */
+  --ring:       #93c5fd;  /* 포커스 링 */
+  --foreground: #0f172a;  /* 본문 텍스트 */
 }
 
+/* ===== Dark (html.dark에 붙음) ===== */
+.dark {
+  --background: #0b1220;  /* slate-950 계열 */
+  --surface:    #0f172a;  /* slate-900 */
+  --surface-2:  #131e33;  /* surface보다 살짝 밝은 톤 */
+  --border:     #243045;  /* 경계선 */
+  --divider:    #1f2a41;  /* 리스트 구분선 */
+  --muted:      #9fb1cc;  /* 밝은 보조 텍스트 */
+  --accent:     #60a5fa;  /* 링크/포커스 */
+  --ring:       #3b82f6;  /* 포커스 링 */
+  --foreground: #e6edf6;  /* 본문 텍스트 */
+}
+
+/* Tailwind v4 theme inline 매핑 (유틸: bg-background, text-muted, border-divider 등) */
 @theme inline {
   --color-background: var(--background);
+  --color-surface:    var(--surface);
+  --color-surface-2:  var(--surface-2);
+  --color-border:     var(--border);
+  --color-divider:    var(--divider);
+  --color-muted:      var(--muted);
+  --color-accent:     var(--accent);
+  --color-ring:       var(--ring);
   --color-foreground: var(--foreground);
+
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
-
-body {
+/* ===== 전역 베이스 ===== */
+html, body {
   background: var(--background);
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
 }
+
+/* 선택: 기본 보더/아웃라인 통일감 */
+@layer base {
+  textarea,
+  input {
+    color: var(--foreground);      /* ✅ 실제 입력 글자색 */
+    background-color: var(--surface); /* 선택: 입력창 배경 */
+  }
+
+  input::placeholder,
+  textarea::placeholder {
+    color: var(--muted);          /* ✅ placeholder 색 */
+  }
+}
+
+
+
+/* 선택: 스크롤바도 테마 따라감 */
+::-webkit-scrollbar { width: 8px; height: 8px; }
+::-webkit-scrollbar-thumb { background-color: var(--muted); border-radius: 8px; }
+::-webkit-scrollbar-track { background-color: var(--background); }
