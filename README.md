@@ -19,7 +19,6 @@
 </p>
 
 ---
----
 
 # Social Feed — Plus
 
